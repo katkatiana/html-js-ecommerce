@@ -1,0 +1,60 @@
+<!-- 
+ESERCIZIO 1: Inserisci un tag h1 con il nome del tuo negozio X
+ESERCIZIO 2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio X
+ESERCIZIO 3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo X
+ESERCIZIO 4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente 
+ESERCIZIO 5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire nessuna "vera" funzionalità di POST/salvataggio!)
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneMe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onclick= "changeColor()">
+    <h1 id = "mambo" onclick = "changeTag()">PHONE ME</h1>
+    <table>
+        <tr>
+            <button onclick = "createClass()">Try link</button>
+            <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios B2</a></th>
+            <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios S10</a></th>
+            <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios K3</a></th>
+            <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios S9</a></th>
+            <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios K4</a></th>
+        </tr>
+        <tr>
+            <td><img src="./images/b2.jpg" alt="firstSmartPhone"></td>
+            <td><img src="./images/s10_.jpg" alt="secondOne"></td>
+            <td><img src="./images/k3.jpg" alt="thirdOne"></td>
+            <td><img src="./images/s9.jpg" alt="fourtOne"></td>
+            <td><img src="./images/h4.jpg" alt="lastOne"></td>
+        </tr>
+        <tr>
+            <td>Prodotto di punta dell'azienda Axios con fotocamera da 40MP dalla risoluzione magnifica!</td>
+            <td>Ultima uscita della linea S con doppio obiettivo e effetto grandangolo per foto da ogni prospettiva e impianto audio irresistibile</td>
+            <td>Smartphone dalla linea elegante ed elettrica in 10 tonalità da scegliere per abbinarle alla tua personalità sgargiante</td>
+            <td>Prodotto dello scorso anno che ha ancora tanto da offrire ai suoi utenti! Una scelta non solo di stile, ma di gran qualità!</td>
+            <td>Smartphone da combattimento, che può andare sott'acqua fino ad una profondità di 100m senza alcun danno, schermo antigraffio indistruttibile e cover integrata iperprotettiva</td>
+        </tr>
+        <tr>
+            <td>299,99€</td>
+            <td>349,99€</td>
+            <td>199,99€</td>
+            <td>229,99€</td>
+            <td>399,99€</td>
+        </tr>
+    </table>
+    <footer>
+        <h2>PhoneMe </h1>
+        <p class = "address" onclick = "changeAddress()">Via Dei Matti, 0 -Ipazzia (CO)</p>
+    </footer>
+    <div class = "input">
+        <input type="text" placeholder="Please, leave here a comment"/>
+    </div>
+    <script src="./s3p2-scaricabile.js"></script>
+</body>
+</html>

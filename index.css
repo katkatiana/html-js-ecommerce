@@ -1,0 +1,19 @@
+h1, footer, .input, table {
+    text-align: center;
+}
+img {
+    width: 30%;
+    height: 30%;
+}
+.input {
+    height: 20%
+}
+input {
+    width: 50%;
+}
+.nameLink {
+    color: red
+}
+.visibilityImg {
+    visibility: hidden;
+}
