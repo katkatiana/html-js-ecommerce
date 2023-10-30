@@ -19,7 +19,7 @@ ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un comment
     <h1 id = "mambo" onclick = "changeTag()">PHONE ME</h1>
     <table>
         <tr>
-            <button onclick = "createClass()">Try link</button>
+            <button onclick = "createClassLink()">Try link</button>
             <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios B2</a></th>
             <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios S10</a></th>
             <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios K3</a></th>
@@ -27,6 +27,7 @@ ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un comment
             <th><a href="https://www.amazon.it/Fisher-Price-FGW66-Telefono-Parlante/dp/B01LZYGY8H/ref=asc_df_B01LZYGY8H/?tag=googshopit-21&linkCode=df0&hvadid=194882263596&hvpos=&hvnetw=g&hvrand=7469748195496087081&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008250&hvtargid=pla-290807265078&psc=1">Axios K4</a></th>
         </tr>
         <tr>
+            <button onclick="createClassImg()">Try Img</button>
             <td><img src="./images/b2.jpg" alt="firstSmartPhone"></td>
             <td><img src="./images/s10_.jpg" alt="secondOne"></td>
             <td><img src="./images/k3.jpg" alt="thirdOne"></td>
@@ -41,16 +42,17 @@ ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un comment
             <td>Smartphone da combattimento, che può andare sott'acqua fino ad una profondità di 100m senza alcun danno, schermo antigraffio indistruttibile e cover integrata iperprotettiva</td>
         </tr>
         <tr>
-            <td>299,99€</td>
-            <td>349,99€</td>
-            <td>199,99€</td>
-            <td>229,99€</td>
-            <td>399,99€</td>
+            <button onclick="changePriceColor()">Try prices colors</button>
+            <td class = "prices">299,99€</td>
+            <td class = "prices">349,99€</td>
+            <td class = "prices">199,99€</td>
+            <td class = "prices">229,99€</td>
+            <td class = "prices">399,99€</td>
         </tr>
     </table>
     <footer>
         <h2>PhoneMe </h1>
-        <p class = "address" onclick = "changeAddress()">Via Dei Matti, 0 -Ipazzia (CO)</p>
+        <p class = "address" onclick = "changeAddress()">Via Dei Matti, 0 -IpazZia (CO)</p>
     </footer>
     <div class = "input">
         <input type="text" placeholder="Please, leave here a comment"/>

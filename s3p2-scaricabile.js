@@ -26,12 +26,31 @@ const changeAddress = function() {
     event.stopPropagation()
 }
 
-const createClass = function() {
-    const newClass = document.querySelectorAll(`a`)
-    for (let i = 0; i < newClass.length; i++) {
-        newClass[i].classList.toggle("nameLink")
+const createClassLink = function() {
+    const classLink = document.querySelectorAll(`a`)
+    for (let i = 0; i < classLink.length; i++) {
+        classLink[i].classList.toggle("nameLink")
     }
     event.stopPropagation()
 }    
 
+const createClassImg = function() {
+    const classImg = document.querySelectorAll(`td img`)
+    for (let i = 0; i < classImg.length; i++) {
+        classImg[i].classList.toggle("visibilityImg")
+    }
+    event.stopPropagation()
 
+}
+
+const changePriceColor = function() {
+    const newColors = document.querySelectorAll (".prices")
+    for (let i = 0; i < newColors.length; i++) {
+        let a = Math.round(Math.random()* 255)
+        let b = Math.round(Math.random()* 255)
+        let c = Math.round(Math.random()* 255)
+        newColors[i].style.color = "rgb(" + a + "," + b + "," + c + ")"
+        event.stopPropagation()
+
+    }
+}

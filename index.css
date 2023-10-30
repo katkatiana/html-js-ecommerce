@@ -15,5 +15,8 @@ input {
     color: red
 }
 .visibilityImg {
-    visibility: hidden;
+    display: none;
+}
+button{
+    margin-inline: 20px;
 }
